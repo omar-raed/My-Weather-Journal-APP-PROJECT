@@ -50,7 +50,8 @@ function addData(req, res){
     projectData["date"] = req.body.date;
     projectData["temperature"] = req.body.temperature;
     projectData["userResponse"] = req.body.userResponse;
-
+    
+    res.send("POST received") // sending a  response
     
 }
 
