@@ -29,7 +29,7 @@ function implement(event) {
   
 
   })
-  .then( updateUI() )
+  .then( updateUI )
 
 }
 
